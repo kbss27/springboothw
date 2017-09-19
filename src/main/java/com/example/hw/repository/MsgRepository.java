@@ -4,7 +4,7 @@ import com.example.hw.Model.Message;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**
- * Created by daou on 2017-09-18.
+ * Created by hyunwoo on 2017-09-18.
  */
 public interface MsgRepository extends JpaRepository<Message, Long> {
 }

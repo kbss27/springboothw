@@ -9,7 +9,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 /**
- * Created by daou on 2017-09-18.
+ * Created by hyunwoo on 2017-09-18.
  */
 @Entity
 public class Message {

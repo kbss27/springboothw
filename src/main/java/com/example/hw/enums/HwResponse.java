@@ -4,7 +4,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 
 /**
- * Created by daou on 2017-09-18.
+ * Created by hyunwoo on 2017-09-18.
  */
 public enum HwResponse {
     SUCCESS(new ResponseEntity<>("성공", HttpStatus.OK)),
