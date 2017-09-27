@@ -7,6 +7,7 @@ import javax.persistence.*;
 /**
  * Created by hyunwoo on 2017-09-19.
  */
+@Entity
 public class Gallery {
     @Id
     @GeneratedValue
