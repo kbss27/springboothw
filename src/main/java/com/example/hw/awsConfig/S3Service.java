@@ -31,7 +31,7 @@ public class S3Service {
     @Value("${cloud.aws.s3.bucket}")
     private String bucket;
 
-    public PutObjectResult upload(MultipartFile multipartFile){
+    public PutObjectResult upload(MultipartFile multipartFile) {
         try {
             return upload(multipartFile.getInputStream(), multipartFile.getOriginalFilename());
         } catch (IOException e) {

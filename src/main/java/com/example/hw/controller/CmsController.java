@@ -3,13 +3,14 @@ package com.example.hw.controller;
 import com.amazonaws.services.s3.model.PutObjectResult;
 import com.example.hw.awsConfig.S3Service;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 /**
- * Created by daou on 2017-09-27.
+ * Created by hyunwoo on 2017-09-27.
  */
-@RestController
+@Controller
 @RequestMapping(value="/cms")
 public class CmsController {
 
